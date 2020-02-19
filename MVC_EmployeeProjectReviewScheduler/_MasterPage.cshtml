@@ -1,0 +1,22 @@
+﻿@*<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center; color:bisque">Happy Learning</h1>
+    </header>
+    <nav>
+        <h3>Navigation</h3>
+        @Html.ActionLink("ReviewScheduler", "Index");<br />
+        @Html.ActionLink("ReviewScheduler", "Create");<br />
+     
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>*@
